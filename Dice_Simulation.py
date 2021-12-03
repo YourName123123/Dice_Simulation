@@ -1,7 +1,7 @@
 #Command = 1-10 (the number you roll virtual dice)
 #        = 'Exit' or 'exit'(to quit this program)
 import random
-import time
+import time #can dont use
 
 def main():
     Number = ["1","2","3","4","5","6","7","8","9","10"]
@@ -11,7 +11,7 @@ def main():
         for i in range(0,n):
             num = random.randint(1,6)
             print(num)
-            time.sleep(0.2)
+            time.sleep(0.2) #can dont use
         main()
     elif Command == "Exit" or "exit":
         exit()
